@@ -39,7 +39,11 @@ A **Markov Decision Process (MDP)** is defined by the tuple $(S, A, P, R, \gamma
 
 For average reward MDPs, the objective is to maximize the long-term average reward:
 
-$$\rho^* = \max_{\pi} \lim_{T \rightarrow \infty} \frac{1}{T} \mathbb{E}_{\pi} \left[ \sum_{t=0}^{T-1} R(s_t, a_t, s_{t+1}) \right]$$
+<p align="center">
+  $$\rho^{*} = \max_{\pi} \lim_{T \rightarrow \infty} \frac{1}{T} \mathbb{E}_{\pi} \left[ \sum_{t=0}^{T-1} R(s_t, a_t, s_{t+1}) \right]$$
+</p>
+
+
 
 where $\pi: S \rightarrow A$ is a policy.
 
