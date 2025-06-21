@@ -5,7 +5,7 @@ Equivalent to neuron.c in the original C code
 
 import numpy as np
 from constants import NO_INPUTS, DATA_SIZE, ITERMAX
-from forward_pass import simu_net
+from forward_pass import simu_net, simu_net_vectorized
 
 
 def neuron(weights, bias_weight, input_values, target_values):

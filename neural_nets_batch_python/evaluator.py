@@ -5,7 +5,7 @@ Equivalent to evaluator.c in the original C code
 
 import numpy as np
 from constants import NO_INPUTS, NO_HIDDEN
-from forward_pass import simu_net
+from forward_pass import simu_net, simu_net_vectorized
 
 
 def evaluator(ih_weights, ho_weights, bias_weight, vbias_weights, x):
